@@ -40,6 +40,16 @@ nano File6.txt
 git add File6.txt 
 git commit -m "Ajout de File6.txt dans la branche B"
 
+git checkout master
+git merge branch_A
+git branch -d branch_A
+
+git add File5.txt
+git commit -m "Ajout de File5 après fusion"
+git merge branch_B
+git branch -d branch_B
+
+
 
 
 
