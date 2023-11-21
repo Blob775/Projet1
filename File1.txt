@@ -1,1 +1,48 @@
 Projet Git 21/11/2023
+
+git init
+git config user.name "Alessandro Dag"
+git config user.email "Dag4@gmail.com"
+touch File1.txt && nano File1.txt
+git add File1.txt
+git commit -m "Ajout du fichier1 dans C1" File1.txt
+
+touch File2.txt && nano File2.txt
+git add File2.txt
+git commit -m "Ajout du fichier2 dans C2" File2.txt
+
+touch File3.html && nano File3.html
+git add File3.html
+nano File2.txt
+git commit -m "Ajout du file3.html et modification du File2"
+
+nano File4.txt
+git add File4.txt
+git commit -m "Modification du File4"
+
+nano .gitignore
+git add .gitignore
+git commit -m " ignore"
+
+git branch branch_A
+git checkout branch_A
+nano File2.txt
+git add File2.txt
+git commit -m "Modification de File2.txt dans la branche A"
+
+nano File5.txt
+git add File5.txt
+git commit -m "Ajout de File5 dans C7"
+
+git checkout master
+git branch branch_B
+nano File6.txt
+git add File6.txt 
+git commit -m "Ajout de File6.txt dans la branche B"
+
+
+
+
+
+
+
